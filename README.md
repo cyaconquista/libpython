@@ -9,6 +9,5 @@ pip install - r requirements-dev.txt
 
 '''console
 flake8
-
 '''
 
