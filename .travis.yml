@@ -3,9 +3,11 @@ python:
   - 3.9
   - 3.10
 install:
-  - pip install -r requirements-dev.txt
+  - pip install -r requirements-dev.txt codcov
 script:
   - flake8
- - pytest libpythonpro01
+ - pytest libpythonpro01 --cov=libpythonpro01
+after_success:
+  - codcov
 
 
