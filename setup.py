@@ -96,7 +96,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "libpythonpro01"
 NAME = PACKAGE
 DESCRIPTION = "Modulo para contrução de projetos Python"
 AUTHOR = "Manoel Messias"
@@ -110,6 +110,7 @@ setup(
     version=VERSION,
     description=DESCRIPTION,
     long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     license=read('LICENSE'),
