@@ -20,8 +20,6 @@ def test_remetente(remetente):
 
     )
     assert remetente in resultado
-
-
 @pytest.mark.parametrize(
     'remetente',
     ['','manoel.pereira']
